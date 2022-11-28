@@ -1,4 +1,4 @@
-import { LogLine } from "../compute/api/compute";
+import { LogLine } from "./api/compute";
 import { getSession as getRestSession } from "./rest";
 import { AuthType, ProfileConfig } from "../components/profile";
 
@@ -6,6 +6,7 @@ let profileConfig: ProfileConfig;
 
 export interface RunResult {
   html5?: string;
+  title?: string;
 }
 
 export interface Session {
