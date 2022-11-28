@@ -10,7 +10,7 @@ import {
   commands,
 } from "vscode";
 import { appendLog } from "../components/LogViewer";
-import { getSession } from "../session";
+import { getSession } from "../compute";
 import { profileConfig, switchProfile } from "./profile";
 
 let outputChannel: OutputChannel;

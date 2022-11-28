@@ -3,8 +3,8 @@ import { env, Uri, window } from "vscode";
 import { URLSearchParams } from "url";
 import { createHash } from "crypto";
 import { Config } from ".";
-import { RootApi } from "./api/compute";
-import { Configuration } from "./api/configuration";
+import { RootApi } from "../../compute/api/compute";
+import { Configuration } from "../../compute/api/configuration";
 
 interface Tokens {
   access_token: string;

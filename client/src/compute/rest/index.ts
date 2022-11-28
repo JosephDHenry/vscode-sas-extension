@@ -1,6 +1,6 @@
 import { AxiosRequestConfig, AxiosResponse } from "axios";
 import { Session } from "..";
-import { createRequestFunction } from "./api/common";
+import { createRequestFunction } from "../../compute/api/common";
 import {
   ContextsApi,
   JobLogCollection,
@@ -13,8 +13,8 @@ import {
   ServersApi,
   Session as ComputeSession,
   SessionsApi,
-} from "./api/compute";
-import { Configuration } from "./api/configuration";
+} from "../../compute/api/compute";
+import { Configuration } from "../../compute/api/configuration";
 import { clearTokens, getAccessToken } from "./auth";
 
 export interface Config {

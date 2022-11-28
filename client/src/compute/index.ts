@@ -1,4 +1,4 @@
-import { LogLine } from "./rest/api/compute";
+import { LogLine } from "../compute/api/compute";
 import { getSession as getRestSession } from "./rest";
 import { AuthType, ProfileConfig } from "../components/profile";
 
